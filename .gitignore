@@ -1,0 +1,30 @@
+
+# Build and output directories
+/build/
+/bin/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE and system files
+.vscode/
+.idea/
+*.swp
+*~
+*.DS_Store
+Thumbs.db
+
+# Docs (optional compiled outputs)
+docs/html/
+docs/*.pdf
+
+# Allow these patterns to apply recursively in subdirectories
+!*/
